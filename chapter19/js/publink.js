@@ -1,0 +1,3 @@
+/*
+Social news web page
+*/

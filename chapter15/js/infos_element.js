@@ -1,0 +1,3 @@
+/*
+Information about an element
+*/
