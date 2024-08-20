@@ -1,6 +1,18 @@
 /*
 RPG character experience
 */
+const aurora = {
+    name: "Aurora",
+    health: 150,
+    strength: 25,
+    xp: 0,
+  
+    // Return the character description
+    describe() {
+      return `${this.name} has ${this.health} health points and ${this
+        .strength} as strength. Current experience points at ${this.xp}`;
+    }
+  };
 
 // TODO: create the character object here
 
