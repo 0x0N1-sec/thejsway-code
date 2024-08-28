@@ -30,5 +30,5 @@ const governmentForms = [
 ];
 
 // TODO: compute the formsEndingWithCy array
-
+let formsEndingWithCy = governmentForms.filter(cyName => (cyName.name[cyName.name.length - 2] + cyName.name[cyName.name.length - 1]) === "cy")
 console.log(formsEndingWithCy);
